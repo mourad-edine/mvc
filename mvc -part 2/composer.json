@@ -1,0 +1,17 @@
+{
+    "name": "manouher/mvc",
+    "description": "rien",
+    "autoload": {
+        "psr-4": {
+            "Router\\": "routes/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mourad",
+            "email": "101376159+mourad-edine@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}

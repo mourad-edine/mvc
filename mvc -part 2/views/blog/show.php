@@ -1,0 +1,1 @@
+<h1>post N° <?php echo $params['id'];?></h1>
