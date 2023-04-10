@@ -97,51 +97,47 @@
 <div id="sidebar-menu" class="sidebar-menu">
 <ul>
 <li class="active">
-<a href="index.php"><i class="fa fa-home" aria-hidden="true"></i><span> Dashboard</span> </a>
+<a href="index.php"><i data-feather="home"></i><span>Home</span> </a>
 </li>
 <li class="submenu active">
-<a href="javascript:void(0);"><i class="fa fa-product-hunt" aria-hidden="true"></i><span> Product</span> <span class="menu-arrow"></span></a>
+<a href="javascript:void(0);"><i data-feather="shopping-bag"></i><span>programme</span> <span class="menu-arrow"></span></a>
 <ul class="text-white" style="background: #2E3840;">
-<li><a href="productlist.html" class="text-white" >Product List</a></li>
-<li><a href="addproduct.html" class="text-white" >Add Product</a></li>
-<li><a href="categorylist.html" class="text-white" >Category List</a></li>
-<li><a href="addcategory.html" class="text-white" >Add Category</a></li>
+<li><a href="productlist.html" class="text-white" >list programme</a></li>
+<li><a href="addproduct.html" class="text-white" >ajouter programme</a></li>
+<li><a href="categorylist.html" class="text-white" >Category</a></li>
 </ul>
 </li>
 <li class="submenu active">
-<a href="javascript:void(0);"><i class="fa fa-area-chart" aria-hidden="true"></i><span> Sales</span> <span class="menu-arrow"></span></a>
+<a href="javascript:void(0);"><i data-feather="shuffle"></i><span>services</span> <span class="menu-arrow"></span></a>
 <ul style="background: #2E3840;">
-<li><a href="saleslist.html"class="text-white">Sales List</a></li>
-<li><a href="pos.html" class="text-white">POS</a></li>
-<li><a href="pos.html" class="text-white">New Sales</a></li>
-<li><a href="salesreturnlists.html" class="text-white">Sales Return List</a></li>
-<li><a href="createsalesreturns.html" class="text-white">New Sales Return</a></li>
-</ul>
-</li>
-<li class="submenu active">
-<a href="javascript:void(0);"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span> Purchase</span> <span class="menu-arrow"></span></a>
-<ul style="background: #2E3840;">
-<li><a href="purchaselist.html" class="text-white">Purchase List</a></li>
-<li><a href="addpurchase.html" class="text-white">Add Purchase</a></li>
-<li><a href="importpurchase.html" class="text-white">Import Purchase</a></li>
-</ul>
-</li>
-<li class="submenu active">
-<a href="javascript:void(0);"><i class="fa fa-plus" aria-hidden="true"></i><span> Expense</span> <span class="menu-arrow"></span></a>
-<ul style="background: #2E3840;">
-<li><a href="expenselist.html" class="text-white">Expense List</a></li>
-</ul>
-</li>
-
-<li class="submenu active">
-<a href="javascript:void(0);"><i class="fa fa-exchange" aria-hidden="true"></i><span> Transfer</span> <span class="menu-arrow"></span></a>
-<ul style="background: #2E3840;">
-<li><a href="transferlist.html" class="text-white">Transfer List</a></li>
+<li><a href="saleslist.html"class="text-white">service en cours</a></li>
+<li><a href="pos.html" class="text-white">Nouveau service</a></li>
 
 </ul>
 </li>
 <li class="submenu active">
-<a href="javascript:void(0);"><i class="fa fa-paper-plane" aria-hidden="true"></i><span> Return</span> <span class="menu-arrow"></span></a>
+<a href="javascript:void(0);"><i data-feather="check-square"></i><span>factures</span> <span class="menu-arrow"></span></a>
+<ul style="background: #2E3840;">
+<li><a href="purchaselist.html" class="text-white">liste factures</a></li>
+<li><a href="addpurchase.html" class="text-white">Archives</a></li>
+</ul>
+</li>
+<li class="submenu active">
+<a href="javascript:void(0);"><i data-feather="align-left"></i><span>ajouter cours</span> <span class="menu-arrow"></span></a>
+<ul style="background: #2E3840;">
+<li><a href="expenselist.html" class="text-white">Cours reservation</a></li>
+</ul>
+</li>
+
+<li class="submenu active">
+<a href="javascript:void(0);"><i data-feather="dollar-sign"></i><span>payement</span> <span class="menu-arrow"></span></a>
+<ul style="background: #2E3840;">
+<li><a href="transferlist.html" class="text-white">payement</a></li>
+
+</ul>
+</li>
+<li class="submenu active">
+<a href="javascript:void(0);"><i data-feather="corner-down-left"></i><span> Return</span> <span class="menu-arrow"></span></a>
 <ul style="background: #2E3840;">
 <li><a href="salesreturnlist.html" class="text-white">Sales Return List</a></li>
 <li><a href="createsalesreturn.html" class="text-white">Add Sales Return </a></li>
@@ -149,20 +145,20 @@
 </ul>
 </li>
 <li class="submenu active">
-<a href="javascript:void(0);"><i class="fa fa-users" aria-hidden="true"></i><span> People</span> <span class="menu-arrow"></span></a>
+<a href="javascript:void(0);"><i data-feather="users"></i><span>clients/coach</span> <span class="menu-arrow"></span></a>
 <ul style="background: #2E3840;">
-<li><a href="userlist.html" class="text-white">User List</a></li>
-<li><a href="adduser.html" class="text-white">Add User</a></li>
-<li><a href="storelist.html" class="text-white">Store List</a></li>
-<li><a href="addstore.html" class="text-white">Add Store</a></li>
+<li><a href="userlist.html" class="text-white">liste clients</a></li>
+<li><a href="adduser.html" class="text-white">ajouter client</a></li>
+<li><a href="storelist.html" class="text-white">liste coach</a></li>
+<li><a href="addstore.html" class="text-white">ajouter coach</a></li>
 </ul>
 </li> 
 
 <li class="submenu active">
-<a href="javascript:void(0);"><i class="fa fa-map-marker" aria-hidden="true"></i><span> Places</span> <span class="menu-arrow"></span></a>
+<a href="javascript:void(0);"><i data-feather="map-pin"></i><span>localité</span> <span class="menu-arrow"></span></a>
 <ul style="background: #2E3840;">
-<li><a href="newstate.html" class="text-white">New State </a></li>
-<li><a href="statelist.html" class="text-white">State list</a></li>
+<li><a href="newstate.html" class="text-white">nouveau pays </a></li>
+<li><a href="statelist.html" class="text-white">pays disponibles</a></li>
 </ul>
 </li>
 
